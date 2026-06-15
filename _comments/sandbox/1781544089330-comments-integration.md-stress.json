@@ -22,6 +22,17 @@
       "parentId": null,
       "blockId": null,
       "lineNumber": null
+    },
+    {
+      "id": "stress-4",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 4",
+      "createdAt": "2026-06-15T17:21:41.502Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
     }
   ]
 }

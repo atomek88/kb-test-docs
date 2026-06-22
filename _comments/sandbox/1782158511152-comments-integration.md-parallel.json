@@ -11,6 +11,17 @@
       "parentId": null,
       "blockId": null,
       "lineNumber": null
+    },
+    {
+      "id": "comment-b",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Second concurrent comment",
+      "createdAt": "2026-06-22T20:01:51.179Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
     }
   ]
 }

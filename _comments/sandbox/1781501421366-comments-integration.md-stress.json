@@ -1,0 +1,27 @@
+{
+  "path": "sandbox/1781501421366-comments-integration.md-stress",
+  "comments": [
+    {
+      "id": "stress-4",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 4",
+      "createdAt": "2026-06-15T05:30:24.297Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    },
+    {
+      "id": "stress-0",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 0",
+      "createdAt": "2026-06-15T05:30:24.297Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    }
+  ]
+}

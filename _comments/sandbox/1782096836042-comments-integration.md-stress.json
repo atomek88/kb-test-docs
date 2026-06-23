@@ -1,0 +1,38 @@
+{
+  "path": "sandbox/1782096836042-comments-integration.md-stress",
+  "comments": [
+    {
+      "id": "stress-0",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 0",
+      "createdAt": "2026-06-22T02:54:03.075Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    },
+    {
+      "id": "stress-3",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 3",
+      "createdAt": "2026-06-22T02:54:03.075Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    },
+    {
+      "id": "stress-4",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 4",
+      "createdAt": "2026-06-22T02:54:03.075Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    }
+  ]
+}

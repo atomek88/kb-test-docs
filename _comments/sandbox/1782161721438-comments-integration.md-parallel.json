@@ -1,0 +1,27 @@
+{
+  "path": "sandbox/1782161721438-comments-integration.md-parallel",
+  "comments": [
+    {
+      "id": "comment-b",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Second concurrent comment",
+      "createdAt": "2026-06-22T20:55:21.466Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    },
+    {
+      "id": "comment-a",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "First concurrent comment",
+      "createdAt": "2026-06-22T20:55:21.466Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    }
+  ]
+}

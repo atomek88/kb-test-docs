@@ -4,12 +4,16 @@ This repository is a shared document store organized by function. Each directory
 
 ## Structure
 
-| Directory | Purpose |
-|-----------|---------|
-| [product/](product/) | Product strategy, roadmap, personas, and release process |
-| [engineer/](engineer/) | Technical architecture, onboarding, and deployment |
-| [gtm/](gtm/) | Go-to-market positioning, messaging, and launch planning |
-| [miscellaneous/](miscellaneous/) | Cross-functional references, meeting notes, and vendor records |
+```text
+## Code block ##
+```
+
+| Directory      | Purpose                                                        |
+| -------------- | -------------------------------------------------------------- |
+| product/       | Product strategy, roadmap, personas, and release process       |
+| engineer/      | Technical architecture, onboarding, and deployment             |
+| gtm/           | Go-to-market positioning, messaging, and launch planning       |
+| miscellaneous/ | Cross-functional references, meeting notes, and vendor records |
 
 ## Contributing
 

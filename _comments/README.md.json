@@ -1,0 +1,16 @@
+{
+  "path": "README.md",
+  "comments": [
+    {
+      "id": "bad3b67f-ffbb-46a5-b607-d5409022d933",
+      "authorEmail": "tzmichalik@gmail.com",
+      "authorName": "Tomasz Michalik",
+      "body": "test",
+      "createdAt": "2026-06-25T06:09:01.505Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": "block:d67145f0-2db1-4d83-8e59-1f775aa63ad2",
+      "lineNumber": null
+    }
+  ]
+}

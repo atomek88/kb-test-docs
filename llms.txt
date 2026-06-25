@@ -1,0 +1,35 @@
+# Align AI Docs
+
+> Machine-readable knowledge base index. Regenerated on publish by KB AlignAI.
+
+## Pages
+
+- [README](/docs/README)
+- [Malformed Frontmatter](/docs/docs/malformed-frontmatter)
+- [Plain](/docs/docs/plain)
+- [Stale Document](/docs/docs/stale-doc): owner: platform | status: current | reviewed: 2020-01-01
+- [With Frontmatter](/docs/docs/with-frontmatter)
+- [With Links](/docs/docs/with-links)
+- [README](/docs/engineer/README)
+- [Architecture](/docs/engineer/architecture)
+- [Deployment](/docs/engineer/deployment)
+- [Onboarding](/docs/engineer/onboarding)
+- [README](/docs/gtm/README)
+- [Launch Checklist](/docs/gtm/launch-checklist)
+- [Messaging](/docs/gtm/messaging)
+- [Positioning](/docs/gtm/positioning)
+- [Index](/docs/index)
+- [README](/docs/miscellaneous/README)
+- [Glossary](/docs/miscellaneous/glossary)
+- [Meeting Notes](/docs/miscellaneous/meeting-notes)
+- [Vendors](/docs/miscellaneous/vendors)
+- [Note](/docs/notes/note)
+- [README](/docs/product/README)
+- [Personas](/docs/product/personas)
+- [Release Process](/docs/product/release-process)
+- [Roadmap](/docs/product/roadmap)
+- [Publish Integration](/docs/sandbox/1781542715379-publish-integration-test)
+- [Stale Document](/docs/stale-doc): owner: platform | status: current | reviewed: 2020-01-01
+- [With Links](/docs/with-links)
+
+_Last generated: see git history for exact timestamp._

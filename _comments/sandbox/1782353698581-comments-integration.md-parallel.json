@@ -1,0 +1,16 @@
+{
+  "path": "sandbox/1782353698581-comments-integration.md-parallel",
+  "comments": [
+    {
+      "id": "comment-a",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "First concurrent comment",
+      "createdAt": "2026-06-25T02:14:58.639Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    }
+  ]
+}

@@ -4,4 +4,4 @@ title: "Publish Integration"
 
 # Publish Integration
 
-Version one of the publish test body.
+Version two — updated with the current sha.

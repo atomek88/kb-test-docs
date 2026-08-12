@@ -1,0 +1,13 @@
+2026-08-12T09:14:02Z INFO  build started
+2026-08-12T09:14:03Z INFO  resolving workspace packages
+2026-08-12T09:14:07Z WARN  eslint-config-next@14 on next@16
+2026-08-12T09:14:31Z INFO  build completed in 29s
+
+UNREGISTERED EXTENSION FIXTURE (TDD R5, R18).
+
+.log has no FileTypeSpec. specForPath() must fall back to the generic text spec and
+render this as plaintext with zero code changes. It appears in the sidebar only when
+the source's allowedFileTypes includes ".log" — otherwise it is invisible and its URL
+404s (R17). Sidebar chip should read "LOG", derived from the extension.
+
+Do not edit: integration tests assert exact bytes.

@@ -1,0 +1,16 @@
+CHANGELOG — plain text fixture
+==============================
+
+Registered .txt type (TDD R4). Renders in <pre> via PlaintextView, editable via textarea.
+
+Do not edit: integration tests assert exact bytes.
+
+2026-08-12  Added multi-file-type fixtures
+2026-06-25  v1.5 — Blob object tier
+2026-06-19  v1.3 — durable background jobs
+
+Trailing whitespace and the blank line below are deliberate — they verify that
+whitespace survives the read/publish round-trip byte-for-byte.
+
+	tab-indented line
+    space-indented line

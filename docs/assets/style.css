@@ -1,0 +1,8 @@
+/* Relative-asset target for docs/sample.html.
+   Resolves only when <base href="https://raw.githubusercontent.com/.../docs/"> is injected
+   into the srcdoc (TDD §5.9.2). If the page renders unstyled, <base> is missing or wrong.
+   Also exercises the CSP style-src allowance for raw.githubusercontent.com. */
+.kb-fixture-banner {
+  border-left: 6px solid #33f;
+  border-radius: 4px;
+}

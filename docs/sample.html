@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample HTML Fixture</title>
+  <!-- Relative stylesheet: only resolves if <base href> is injected (TDD §5.9.2 / B4).
+       Without <base>, this 404s against the Next router. -->
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    /* Inline styles must survive sandbox="" — CSS is allowed, scripts are not. */
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    .kb-fixture-banner { background: #eef; border: 1px solid #99f; padding: 1rem; }
+  </style>
+  <!-- Must NOT execute. sandbox="" blocks this; the e2e test asserts no dialog fires. -->
+  <script>window.__KB_XSS_FIRED__ = true; alert("xss")</script>
+</head>
+<body>
+  <div class="kb-fixture-banner">
+    <h1>Sample HTML Fixture</h1>
+    <p>Do not edit: integration tests assert exact bytes.</p>
+  </div>
+
+  <h2>Sandbox assertions</h2>
+  <ul>
+    <li>Inline <code>&lt;script&gt;</code> above must not run (<code>sandbox=""</code>).</li>
+    <li>Inline <code>&lt;style&gt;</code> above must apply.</li>
+    <li>Relative <code>assets/style.css</code> must resolve via the injected <code>&lt;base href&gt;</code>.</li>
+    <li>The remote image below must be <strong>blocked by CSP</strong>, not merely fail to load.</li>
+    <li>The form below must not be submittable (<code>sandbox=""</code> blocks forms).</li>
+  </ul>
+
+  <!-- CSP assertion: img-src does not include example.com, so this request must never
+       leave the browser. A no-JS tracking beacon is exactly the threat (TDD §5.9.2 / B5). -->
+  <img src="https://example.com/tracker.gif" alt="remote tracker — must be blocked" width="1" height="1">
+
+  <!-- Relative image: allowed by CSP (raw.githubusercontent.com) once <base> is injected. -->
+  <img src="assets/dot.png" alt="relative asset" width="8" height="8">
+
+  <form action="https://example.com/collect" method="post">
+    <input name="secret" value="should-never-submit">
+    <button type="submit">Submit</button>
+  </form>
+
+  <p><a href="https://example.com">External link</a></p>
+</body>
+</html>

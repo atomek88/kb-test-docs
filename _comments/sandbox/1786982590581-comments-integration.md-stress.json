@@ -1,0 +1,16 @@
+{
+  "path": "sandbox/1786982590581-comments-integration.md-stress",
+  "comments": [
+    {
+      "id": "stress-2",
+      "authorEmail": "test@test.com",
+      "authorName": "Integration Test",
+      "body": "Stress test comment 2",
+      "createdAt": "2026-08-17T16:03:15.486Z",
+      "resolved": false,
+      "parentId": null,
+      "blockId": null,
+      "lineNumber": null
+    }
+  ]
+}
